@@ -1,6 +1,33 @@
-/* Font Google*/
+/* Font Google da utilizzare */
+.poppins-regular {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .poppins-bold {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
+
+  .body {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+ .logo-text {
+        font-size: 40px;
+        display: inline;
+        margin: 10px;
+
+    }
+
+    .header {
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+
+  
