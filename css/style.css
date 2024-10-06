@@ -9,25 +9,138 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    background-color: #f6f8f9;
   }
 
-  .body {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+
+  body {
     font-family: "Poppins", system-ui;
     font-weight: 400;
     font-style: normal;
+    background-color:#f6f8f9;
+    color: #444851;
     }
+
+   
+
+    ul{
+      list-style: none;
+    }
+
+    li {
+      padding: 5px;
+    }
+    .main-content>ul>li {
+      padding: 10px;
+    }
+
   
- .logo-text {
-        font-size: 40px;
-        display: inline;
-        margin: 10px;
-
-    }
-
-    .header {
-        background-color: white;
-        display: flex;
-        align-items: center;
-    }
-
+/* header */
+header {
+  background-color: #ffffff;
+  padding: 10px 20px;
   
+}
+
+header img {
+  vertical-align: middle;
+}
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3em;
+  
+}
+
+    /* main */
+    main {
+      margin: 30px auto;
+      max-width: 1200px;
+    }
+    
+    .top-bar {
+      background-color: white;
+      padding: 10px 20px;
+       }
+
+    .main-content {
+      margin-top: 5px;
+      background-color: #ffffff;
+      padding: 10px 20px;
+    }
+
+    .badge {
+      padding: 8px 16px;
+      color: white;
+      border-radius: 16px;
+      display: inline-block;
+    }
+
+    .editorial {
+      background-color: #47adf1;
+    }
+
+    .q1-goal {
+      background-color:#9c72e4;
+    }
+
+    .recruiting {
+      background-color:#64c0a9 ;
+    }
+
+    .mobile {
+      background-color: #FF4500;
+    }
+
+    .website {
+      background-color: #ff00ff;
+    }
+
+    .sales {
+      background-color: #ACE1AF;
+    }
+
+    .click-button {
+      padding: 8px 16px;
+      color: white;
+      border-radius: 5px;
+      
+      
+    }
+    .add-task {
+      background-color: #47adf1;
+      color: white;
+      border: none;
+    } 
+
+    .add-section {
+      background-color: white;
+      color: grey;
+      border-color: grey;
+     /* border-style: outset;*/
+      /* border-block-color */
+    }
+
+    .circle {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      text-align: center;
+       ;
+    }
+
+    .color-check {
+      border: 2px solid #64c0a9;
+      color:#64c0a9 ;
+    }
+
+    .color-cross {
+      border: 2px solid red;
+      color: red ;
+    }
